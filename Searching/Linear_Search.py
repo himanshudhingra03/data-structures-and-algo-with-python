@@ -5,7 +5,7 @@
 def linear(arr, key):
     for i in range(len(arr)):
         if arr[i] == key:
-            print("Elemrnt found at", i)
+            print("Element found at", i)
             break
     else:
         print("Element not found")
