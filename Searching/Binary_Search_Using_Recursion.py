@@ -1,5 +1,8 @@
+# Binary Search using Recursion
+# Time complexity - O(logn)
+
 def binary_search_recursion(arr, key, left_index, right_index):
-    if right_index < left_index:
+    if right_index <= left_index:
         return -1
     mid = (left_index + right_index) // 2
     if arr[mid] == key:

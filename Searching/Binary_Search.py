@@ -1,3 +1,7 @@
+# Binary Search using Recursion
+# Time complexity - O(logn)
+
+
 def binary_search(arr, key):
 
     left_index = 0
